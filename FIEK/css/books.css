@@ -1,0 +1,137 @@
+article{
+	margin: 0em;
+	float: left;
+	width: 95%;
+}
+.clothes figure{
+	float: left;
+	margin: 3em;
+	padding: 5px;
+	width: 400px;
+	height: 500px;
+	background-color: #2aa2d4;
+	border-radius: 5px;
+}
+.clothes figure a{
+	text-decoration: none;
+	color: white;
+}
+.clothes figure a:hover{
+	opacity: 0.85;
+	transform: scale(1.1, 1.1);
+}
+.clothes figcaption{
+	margin: 0px;
+	padding: 5px;
+	background-color: #1c1c1c;
+	text-align: center;
+}
+.clothes figure p, .clothes ol li{
+	color: white;
+	word-wrap: break-word;
+	text-align: left;
+}
+.clothes figure h2{
+	color: white;
+	border-bottom: 1px solid black;
+	width: 90%;
+	margin: 20px 20px 10px 20px;
+	padding: 5px;
+}
+img{
+	background-color: black;
+}
+figcaption{
+	padding: 0.5em;
+	color: white;
+}
+.shopping_cart{
+	padding: 1em;
+	margin: 0.5em;
+	width: 50%;
+	background-color: orange;
+	color: white;
+	border: none;
+	border-radius: 5px;
+}
+.buy_now{
+	padding: 1em;
+	margin: 0.5em;
+	width: 50%;
+	background-color: green;
+	color: white;
+	border: none;
+	border-radius: 5px;
+}
+button:hover{
+	cursor: pointer;
+}
+.bulletpoint1 li{
+	list-style-type: circle;
+	text-align: left;
+}
+.bulletpoint2 li{
+	list-style-type: square;
+	text-align: left;
+}
+.article2 section{
+	float: left;
+	margin: 3em 0em;
+	width: 20%;
+}
+.article2 section p, .article2 section img{
+	float: left;
+	width: 40%;
+	margin: 3px;
+	padding: 5px;
+	font-size: 18px;
+}
+.tablesection table{
+	border: 1px solid black;
+	border-spacing: 5px;
+}
+.tablesection table tr td{
+	text-align: center;
+	background-color: orange;
+	border: 1px solid black;
+	padding: 5px;
+}
+#success_message{
+	width: 90%;
+	padding: 1em;
+	margin: 1em;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid green;
+	background-color: lightgreen;
+	color: white;
+}
+#error_message{
+	width: 90%;
+	padding: 1em;
+	margin: 1em;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid red;
+	background-color: #f46666;
+	color: white;
+}
+footer{
+	width: 100%;
+	background-color: lightblue;
+	color: white;
+	float: left;
+	opacity: 0.85;
+}
+footer p{
+	margin: 1em 7em;
+	color: black;
+}
+footer p a{
+	color: blue;
+	font-weight: bold;
+	text-decoration: none;
+}
+footer p a:hover{
+	color: green;
+}

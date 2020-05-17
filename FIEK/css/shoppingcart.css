@@ -1,0 +1,80 @@
+main{
+	margin: 0em 1em;
+}
+article{
+	display: inline-block;
+}
+section {
+	padding: 1em;
+	float: left;
+}
+.saved_books {
+	border: 2px solid #038daf;
+	border-radius: 10px;
+	background-color: #3ccdf2;
+	width: 90%;
+	margin: 1em;
+	padding: 1em;
+	font-size: 1.5em;
+	text-align: left;
+}
+
+#myShoppingcartTable {
+	width: 100%;
+}
+
+#myShoppingcartTable thead tr td{
+	width: 25%;
+	border-bottom: 1px solid black;
+}
+#all_books_table{
+	width: 100%;
+}
+.saved_books #saved_books_table {
+	width: 100%;
+}
+
+.saved_books #saved_books_table tr td{
+	width: 25%;
+}
+#saved_books_table tr td button{
+	float: left;
+	margin: 5px;
+}
+
+.order_book {
+	border: 1px solid #0ac940;
+	border-radius: 5px;
+	padding: 1em;
+	background-color: #25db86;
+	color: white;
+	width: 70px;
+}
+#remove_book {
+	border: none;
+	border-radius: 5px;
+	padding: 1em;
+	background-color: #ff3232;
+	color: white;
+	width: 70px;
+}
+#success_message{
+	width: 95%;
+	padding: 1em;
+	margin: 1em;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid green;
+	background-color: lightgreen;
+	color: white;
+}
+#error_message{
+	width: 95%;
+	padding: 1em;
+	margin: 1em;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid red;
+	background-color: #f46666;
+	color: white;
+}
