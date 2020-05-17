@@ -27,7 +27,7 @@ section{
 	left: 30%;
 	padding: 2em;
 	background-image: linear-gradient(#2aa2d4, #00ff55);
-	color: white;
+	color: black;
 	opacity: 0.95;
 }
 .form input{
@@ -35,7 +35,7 @@ section{
 	font-size: 14px;
 	border: none;
 	border-radius: 5px;
-	color: white;
+	color: black;
 	padding: 5px;
 	width: 80%;
 	height: 26px;
